@@ -44,6 +44,7 @@
   <properties>
     <presto.version>385</presto.version>
     <pkg_url>http://100.116.2.139/trino/trino-server-385.tar.gz</pkg_url>
+    <local_path>~/Downloads/trino-server-385.tar.gz</local_path>
     <java_home>/opt/applications/jdk11</java_home>
     <parcel.version>${presto.version}.presto${project.version}</parcel.version>
   </properties>

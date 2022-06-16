@@ -13,7 +13,7 @@ presto_download_url="${pkg_url}"
 
 echo "downloading package from :"${pkg_url}
 # curl -L -o $presto_download_name $presto_download_url
-cp ~/Downloads/trino-server-385.tar.gz $presto_download_name
+cp ${local_path} $presto_download_name
 echo "downloaded package from :"${pkg_url}
 
 mkdir $decompressed_dir
