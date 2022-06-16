@@ -5,7 +5,7 @@
   <groupId>com.facebook.presto.parcel</groupId>
   <artifactId>PRESTO</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.2</version>
   <name>presto-parcel</name>
 
   <build>
@@ -42,9 +42,9 @@
   </build>
 
   <properties>
-    <presto.version>0.147</presto.version>
-    <jdk.version>8u91</jdk.version>
-    <jdk.build>b14</jdk.build>
+    <presto.version>385</presto.version>
+    <pkg_url>http://100.116.2.139/trino/trino-server-385.tar.gz</pkg_url>
+    <java_home>/opt/applications/jdk11</java_home>
     <parcel.version>${presto.version}.presto${project.version}</parcel.version>
   </properties>
 </project>
